@@ -97,6 +97,23 @@
             border-radius: .2rem;
             background-color: #0057B7;
         }
+
+        @media screen and (max-height: 646px) {
+            .header, .carousel{
+                transform: scale(.9);
+            }
+            .carousel{
+                padding: 0 !important;
+                margin-top: 0 !important;
+                transform: translateY(-2rem);
+            }
+            .header{
+                margin-top: 0;
+            }
+            .card{
+                transform: scale(.7);
+            }
+        }
     </style>
 </head>
 <body>
